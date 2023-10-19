@@ -1,0 +1,10 @@
+Går inte att lägga tal efter man har tömt på listan
+Blir fel när man tar bort talet på första platsen
+
+ct = realloc(ct, memA * sizeof *ct);
+fgets(ct, sizeof(ct), stdin);
+
+if(sscanf(ct, "%d", &c) != 1){
+  c = -1;
+}
+ct = realloc(ct, sizeof(*ct)*strlen(ct));
