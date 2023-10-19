@@ -1,10 +1,6 @@
 Går inte att lägga tal efter man har tömt på listan
-Blir fel när man tar bort talet på första platsen
-
-ct = realloc(ct, memA * sizeof *ct);
-fgets(ct, sizeof(ct), stdin);
-
-if(sscanf(ct, "%d", &c) != 1){
-  c = -1;
-}
-ct = realloc(ct, sizeof(*ct)*strlen(ct));
+  returns the head after method execution
+Blir fel när man tar bort talet på första plats
+  metod acts differently if user wanted to delete first element. method also returns the head
+Meny valet visas upp 2 gånger efter man har gjort ett val
+  -cleared the buffer at the end of the while loop
